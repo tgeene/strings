@@ -2,6 +2,13 @@
 
 if(!function_exists('truncate_to_nearest_word'))
 {
+    /**
+     * Trim a string down to length keeping words intact
+     * 
+     * @param string $value
+     * @param int $length
+     * @return string
+     */
     function truncate_to_nearest_word(string $value, int $length): string
     {
         $parts = explode(' ', $value);
