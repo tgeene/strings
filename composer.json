@@ -13,7 +13,8 @@
 		"files": [
 			"src/str_i_contains.php",
 			"src/str_i_starts_with.php",
-			"src/str_i_ends_with.php"
+			"src/str_i_ends_with.php",
+			"src/str_to_bool.php"
 		]
 	},
 	"require": {
